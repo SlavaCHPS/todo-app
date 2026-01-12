@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  gap: 16px;
+  padding: 8px;
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+   
+}
+
+.removing {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.delete {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #707070;
+}

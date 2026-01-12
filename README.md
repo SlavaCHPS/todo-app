@@ -23,13 +23,12 @@ A small single-page application for managing a to-do list, built with React and 
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/SlavaCHPS/todo-app.git
 
 2. Install dependencies:
 
 npm install
 
-3.Run the project in development mode:
+3. Run the project in development mode:
 
 npm run dev
